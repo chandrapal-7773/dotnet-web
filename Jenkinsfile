@@ -14,8 +14,18 @@ pipeline {
                 checkout scm
             }
         }
-     
-        stage('SonarQube Analysis') {
+      stage('Stop IIS Project') {
+            steps {
+                script {
+                    // Specify the name of your application pool
+                    def applicationPoolName = 'Pipeline'
+
+                    // Stop the application pool
+                    bat "appcmd stop apppool /apppool.name:\"${applicationPoolName}\""
+                }
+            }
+       }    
+       stage('SonarQube Analysis') {
               steps {
                 script {
                 def scannerHome = tool 'SonarScanner for MSBuild'
