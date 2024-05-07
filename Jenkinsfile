@@ -22,7 +22,6 @@ pipeline {
                bat "dotnet ${DOTNET_CLI_HOME}\\SonarScanner.MSBuild.dll end"
               }
           }
-       }
           
         stage('Build') {
             steps {
