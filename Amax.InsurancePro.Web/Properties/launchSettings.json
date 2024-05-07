@@ -1,0 +1,50 @@
+﻿{
+
+{
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://localhost:8001" // Change the port here
+      }
+    }
+  }
+}
+
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:64910",
+      "sslPort": 44308
+    }
+  },
+  "profiles": {
+    "Amax.InsurancePro.Web": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7128;http://localhost:5160",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+
+{
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://localhost:8001" // Change the port here
+      }
+    }
+  }
+}
+

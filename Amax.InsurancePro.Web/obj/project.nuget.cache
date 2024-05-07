@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "xn8QzHKAGPE9jN1BC3IAG4Ie+mFvvzs1NLiSHFI8VMsrFVE44xum2T5vJGL92Csg5ES7j4XUhCKyhOGEjv8tRQ==",
+  "success": true,
+  "projectFilePath": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Amax.InsurancePro.Web.csproj",
+  "expectedPackageFiles": [
+    "/home/chandrapal/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/refit/7.0.0/refit.7.0.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/system.net.http.json/7.0.1/system.net.http.json.7.0.1.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.28/microsoft.netcore.app.runtime.linux-x64.6.0.28.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.28/microsoft.aspnetcore.app.runtime.linux-x64.6.0.28.nupkg.sha512",
+    "/home/chandrapal/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.28/microsoft.netcore.app.host.linux-x64.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

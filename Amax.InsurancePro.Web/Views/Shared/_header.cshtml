@@ -1,0 +1,22 @@
+﻿
+<!--Logo-->
+<div class="row g-3 align-items-center">
+    <div class="col px-5 py-3">
+        <img src="~/theme/images/logo.png" alt="" />
+    </div><!--end of col-12-->
+    <div class="col text-end px-4">
+        <a href="#" class="notification"><i class="fas fa-bell"></i><sup class="badge rounded-pill text-bg-danger">5</sup></a>
+        <div class="dropdown border-start d-inline-block ps-3">
+            <span class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                @Context.User.Identity.Name <img src="~/theme/images/avatar.png" class="ms-3" alt="" />
+            </span>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Reset Password</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="@Url.Action("Logout","Auth")">Logout</a></li>
+            </ul>
+        </div>
+    </div><!--end of col-12-->
+</div><!--end of row-->

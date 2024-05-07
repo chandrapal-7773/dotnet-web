@@ -1,0 +1,91 @@
+﻿<div class="offcanvas-header">
+    <h5 class="offcanvas-title">Add New Company</h5>
+    <button type="button" class="btn-close" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+    <form id="company-form">
+        @Html.AntiForgeryToken()
+        <div><span class="text-danger form-error"></span></div>
+        <div class="row row-block g-2">
+            <div class="block-heading"><h3>Company Information</h3></div>
+            <div class="col-md-6">
+                <input type="text" name="CoName" placeholder="Name" class="form-control" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="Email" placeholder="Email" class="form-control" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="coPhone1" placeholder="Phone Number" class="form-control" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="CoAddressLine1" placeholder="Address" class="form-control" />
+                <span class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row row-block g-2">
+            <div class="block-heading"><h3>Commissions</h3></div>
+            <div class="col-md-6">
+                <input type="number" name="AgencyCode" placeholder="Agency Code" class="form-control" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <input type="number" name="CommissionPercent" placeholder="Commission Percent" class="form-control" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <select type="text" name="CommColl" placeholder="Commission Collection" class=""></select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <select type="text" name="CommBase" placeholder="Commission Based On" class=""></select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <select type="number" name="CoPayMethod" placeholder="Agency Payments" class="" /></select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <select type="number" name="CompFeeOptions" placeholder="Company Fees" class="" /></select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label class="d-inline-block"><input name="CollectCommOnFees" type="checkbox" /> Collect Commission On Fees</label>
+            </div>
+            <div class="col-6">
+                <label class="d-inline-block"><input name="unk" type="checkbox" /> General Agent / Wholesale Broker</label>
+            </div>
+        </div>
+        <div class="row row-block g-2">
+            <div class="block-heading"><h3>Additional Notes</h3></div>
+            <div class="col-12">
+                <textarea name="CompanyNotes" cols="20" rows="3" class="form-control border-0" placeholder="Type Your Message ..."></textarea>
+            </div><!--end of col-12-->
+        </div>
+        <div class="row row-block g-2">
+            <div class="block-heading"><h3>Attachments</h3></div>
+            <div class="col-12">
+                <textarea name="CompanyAttachments" cols="20" rows="3" class="form-control border-0" placeholder="Documents / Images Attached to Insurance Company ..."></textarea>
+            </div>
+        </div>
+        <div class="row row-block g-2">
+            <div class="block-heading"><h3>Integrations</h3></div>
+            <div class="col-12">
+                Click here to configure <a href="#">AgencyBuzz Company ID</a>
+            </div>
+            <div class="col-md-6">
+                <input type="text" placeholder="Turbo Rater User Name" class="form-control" />
+            </div><!--end of col-6-->
+            <div class="col-md-6">
+                <input type="text" placeholder="EZLynx User Name" class="form-control" />
+            </div><!--end of col-6-->
+        </div>
+        <div class="row">
+            <div class="col-12 text-end">
+                <button type="button" class="red-btn submit-btn">SAVE</button>
+            </div>
+        </div>
+    </form>
+</div>

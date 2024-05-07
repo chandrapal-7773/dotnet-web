@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Agent List";
+	ViewBag.pTitle = "Agent List";
+	ViewBag.pageTitle = "Agent List";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row g-2 mt-3">
+	<h2 class="col p-heading border-0 grid-title">Agents</h2>
+	<div class="heading-btns col-auto">
+		<a class="red-btn save-btn" href="#"><i class="fas fa-plus"></i></a>
+	</div><!--end of heading-btns-->
+	<div class="col-12">
+		<div class="table-responsive">
+			<table id="agent-list" class="table table-bordered no-bg" style="min-height:200px">
+				<thead>
+					<tr>
+						@*<th>ID</th>*@
+						<th>Name</th>
+						<th>Phone</th>
+						<th>Email</th>
+						<th>Address</th>
+						<th>Commision</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+		</div><!--end of table-responsive-->
+	</div><!--end of col-12-->
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="side-panel-form" aria-labelledby="agent-formLabel" data-bs-backdrop="static">
+	@await Html.PartialAsync("_Form");
+	<div class="loader d-none"><img src="~/theme/images/loading-animation.gif" alt=""></div>
+</div>
+
+@section scripts {
+	<script type="module" src="~/js/agent/list.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title | Amax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Amax Solutions" name="description" />
+    <meta content="Amax" name="author" />
+
+    <link rel="shortcut icon" href="~/theme/images/favicon.ico">
+    <link href="~/theme/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/theme/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/js/formhelper/formhelper.min.css" />
+
+
+    @RenderSection("styles", required: false)
+    <script>
+        var rootUrl = '@Url.Content("~/")';
+    </script>
+</head>
+
+<body>
+
+    @RenderBody()
+
+    <!-- JAVASCRIPT -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/theme/js/bootstrap.bundle.min.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

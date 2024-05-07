@@ -1,0 +1,65 @@
+﻿@using System.Security.Claims;
+
+@{
+	var user = Context.User;
+	var hasAdminClaim = user.HasClaim(c => c.Type == ClaimTypes.Role && c.Value == "admin");
+}
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button py-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+				Settings
+			</button>
+		</h2>
+		<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+			<div class="accordion-body">
+				<ul>
+					@if(hasAdminClaim)
+					{
+						<li><a href="#" id="side-manage-agents">Manage Agent</a></li>
+					}
+
+					<li><a href="/agency/list">Agencies</a></li>
+
+					@if (hasAdminClaim)
+					{
+						<li><a href="/company/list">Companies</a></li>
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button collapsed py-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+				Sidebar Panel Heading
+			</button>
+		</h2>
+		<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="#">sidebar panel link</a></li>
+					<li><a href="#">sidebar panel link</a></li>
+					<li><a href="#">sidebar panel link</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button collapsed py-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+				Sidebar Panel Heading
+			</button>
+		</h2>
+		<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="#">sidebar panel link</a></li>
+					<li><a href="#">sidebar panel link</a></li>
+					<li><a href="#">sidebar panel link</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

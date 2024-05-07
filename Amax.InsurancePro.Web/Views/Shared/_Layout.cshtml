@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @await Html.PartialAsync("~/Views/Shared/_head.cshtml")
+</head>
+
+<body class="welcome align-items-start">
+
+    <div class="container-fluid my-4 mx-5">
+
+        <!--Header-->
+        @await Html.PartialAsync("~/Views/Shared/_header.cshtml")
+
+        <!--Navbar-->
+        @await Html.PartialAsync("~/Views/Shared/_navbar.cshtml")
+
+        <div class="row g-3 mb-4">
+            <!--Sidbar-->
+            <div class="col-auto sidebar">
+                @await Html.PartialAsync("~/Views/Shared/_sidebar.cshtml")
+            </div>
+            <!--Body-->
+            <div class="col">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div><!--end of container-fluid-->
+    <!-- Toast container at the bottom-right -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <!-- Toasts will be dynamically added here -->
+    </div>
+    <!-- confirmdia -->
+    <div class="modal-wrapper">
+
+    </div>
+
+    <!-- confirmdia -->
+
+
+    <!-- JAVASCRIPT -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/theme/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/selectize/selectize.min.js"></script>
+    <script type="module" src="~/js/layout.js"></script>
+@* 
+    
+    <script src="~/theme/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery.blockui/jquery.blockui.js"></script> *@
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>

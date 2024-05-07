@@ -1,0 +1,47 @@
+﻿@{
+	Layout = "~/Views/Shared/_BlankLayout.cshtml";
+	ViewData["Title"] = "Login";
+}
+
+<div class="login">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 text-center">
+				<img src="~/theme/images/logo.png" alt="" />
+			</div><!--end of col-12-->
+			<div class="col-12 mt-3">
+				<h2 class="heading"><span class="fw-bold">Agent Login</span></h2>
+			</div><!--end of col-12-->
+			<div class="e-alert d-none">
+
+			</div>
+			<div><span class="text-danger form-error"></span></div>
+			
+			<form id="login">
+				@Html.AntiForgeryToken()
+				<div class="col-12 mt-3">
+					<label>Username</label>
+					<input name="Username" type="text" class="form-control" placeholder="name@example.com" />
+					<span class="text-danger"></span>
+				</div><!--end of col-12-->
+				<div class="col-12 my-3">
+					<label>Password</label>
+					<input name="Password" type="password" class="form-control" placeholder="Password" />
+					<span class="text-danger"></span>
+				</div><!--end of col-12-->
+				<div class="col text-end">
+					<a href="#">Forget Password?</a>
+				</div><!--end of col-->
+				<div class="col-12 mt-3">
+					<button type="submit">Sign in</button>
+				</div><!--end of col-12-->
+			</form>
+
+		</div><!--end of row-->
+	</div><!--end of container-fluid-->
+</div>
+
+@section scripts {
+
+	<script type="module" src="~/js/auth/auth.js"></script>
+}

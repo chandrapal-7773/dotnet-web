@@ -1,0 +1,1361 @@
+{
+  "Files": [
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/obj/Debug/net6.0/linux-x64/scopedcss/projectbundle/Amax.InsurancePro.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets/Amax.InsurancePro.Web.bundle.scp.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/FloatingOptionsPanel.js",
+      "PackagePath": "staticwebassets/js/FloatingOptionsPanel.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/agency/list.js",
+      "PackagePath": "staticwebassets/js/agency/list.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/agent/list.js",
+      "PackagePath": "staticwebassets/js/agent/list.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/apiClient.js",
+      "PackagePath": "staticwebassets/js/apiClient.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/auth/auth.js",
+      "PackagePath": "staticwebassets/js/auth/auth.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/common.js",
+      "PackagePath": "staticwebassets/js/common.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/company/list.js",
+      "PackagePath": "staticwebassets/js/company/list.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/config.js",
+      "PackagePath": "staticwebassets/js/config.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/formhandler.js",
+      "PackagePath": "staticwebassets/js/formhandler.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/globals.js",
+      "PackagePath": "staticwebassets/js/globals.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/grid.js",
+      "PackagePath": "staticwebassets/js/grid.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/layout.js",
+      "PackagePath": "staticwebassets/js/layout.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/listbox.js",
+      "PackagePath": "staticwebassets/js/listbox.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/js/select.js",
+      "PackagePath": "staticwebassets/js/select.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/bootstrap/bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/bootstrap/bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.blockUI/jquery.blockUI.js",
+      "PackagePath": "staticwebassets/lib/jquery.blockUI/jquery.blockUI.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/css/lightcolor_blue.css",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/css/lightcolor_blue.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/css/lightcolor_gray.css",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/css/lightcolor_gray.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/js/jquery.jtable.js",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/js/jquery.jtable.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/jtable_theme_base.less",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/jtable_theme_base.less"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/add.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/add.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/bg-thead.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/bg-thead.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/blue/jtable.css",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/blue/jtable.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/blue/jtable.less",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/blue/jtable.less"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/blue/jtable.min.css",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/blue/jtable.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/blue/loading.gif",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/blue/loading.gif"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/close.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/close.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/column-asc.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/column-asc.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/column-desc.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/column-desc.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/column-sortable.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/column-sortable.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/delete.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/delete.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/edit.png",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/edit.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/gray/jtable.css",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/gray/jtable.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/gray/jtable.less",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/gray/jtable.less"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/gray/jtable.min.css",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/gray/jtable.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/gray/loading.gif",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/gray/loading.gif"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery.jtable/themes/lightcolor/jtable_lightcolor_base.less",
+      "PackagePath": "staticwebassets/lib/jquery.jtable/themes/lightcolor/jtable_lightcolor_base.less"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/jquery/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.slim.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/moment.js/moment.min.js",
+      "PackagePath": "staticwebassets/lib/moment.js/moment.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/selectize/selectize.css",
+      "PackagePath": "staticwebassets/lib/selectize/selectize.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/lib/selectize/selectize.min.js",
+      "PackagePath": "staticwebassets/lib/selectize/selectize.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/all.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/all.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/_backup/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/css/style.css",
+      "PackagePath": "staticwebassets/theme/_backup/css/style.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextBold.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextBold.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextBold.otf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextBold.otf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextBold.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextBold.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextBold.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextBold.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextBold.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextBold.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextBold.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextBold.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextLight.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextLight.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextLight.otf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextLight.otf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextLight.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextLight.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextLight.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextLight.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextLight.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextLight.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextLight.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextLight.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextRegular.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextRegular.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextRegular.otf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextRegular.otf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextRegular.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextRegular.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextRegular.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextRegular.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextRegular.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextRegular.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Cocon/CoconNextRegular.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Cocon/CoconNextRegular.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Heavy.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Heavy.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Heavy.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Heavy.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Heavy.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Heavy.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Heavy.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Heavy.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Heavy.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Heavy.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Light.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Light.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Light.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Light.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Light.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Light.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Light.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Light.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Light.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Light.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Medium.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Medium.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Medium.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Medium.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Medium.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Medium.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Medium.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Medium.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Medium.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Medium.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-MediumItalic.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-MediumItalic.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-MediumItalic.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-MediumItalic.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-MediumItalic.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-MediumItalic.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-MediumItalic.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-MediumItalic.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-MediumItalic.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-MediumItalic.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Semibold.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Semibold.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Semibold.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Semibold.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Semibold.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Semibold.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Semibold.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Semibold.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/Lato-Semibold.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/Lato-Semibold.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBlack.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBlack.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBlack.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBlack.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBlack.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBlack.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBlack.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBlack.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBlack.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBlack.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBold.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBold.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBold.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBold.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBold.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBold.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBold.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBold.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoBold.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoBold.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoRegular.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoRegular.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoRegular.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoRegular.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoRegular.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoRegular.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoRegular.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoRegular.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/LatoRegular.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/LatoRegular.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/Lato/original-lato-medium.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/Lato/original-lato-medium.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-light-300.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-light-300.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-light-300.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-light-300.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-light-300.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-light-300.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-light-300.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-light-300.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-light-300.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-light-300.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/fonts/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/theme/_backup/fonts/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/images/avatar.png",
+      "PackagePath": "staticwebassets/theme/_backup/images/avatar.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/images/car-icon.png",
+      "PackagePath": "staticwebassets/theme/_backup/images/car-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/images/logo.png",
+      "PackagePath": "staticwebassets/theme/_backup/images/logo.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/images/skyline-bg.png",
+      "PackagePath": "staticwebassets/theme/_backup/images/skyline-bg.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/images/yellow-bg.png",
+      "PackagePath": "staticwebassets/theme/_backup/images/yellow-bg.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.js",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/_backup/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/theme/_backup/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/all.min.css",
+      "PackagePath": "staticwebassets/theme/css/all.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/animate.min.css",
+      "PackagePath": "staticwebassets/theme/css/animate.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/theme/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/css/style.css",
+      "PackagePath": "staticwebassets/theme/css/style.css"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextBold.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextBold.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextBold.otf",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextBold.otf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextBold.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextBold.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextBold.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextBold.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextBold.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextBold.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextBold.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextBold.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextLight.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextLight.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextLight.otf",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextLight.otf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextLight.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextLight.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextLight.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextLight.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextLight.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextLight.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextLight.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextLight.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextRegular.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextRegular.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextRegular.otf",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextRegular.otf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextRegular.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextRegular.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextRegular.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextRegular.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextRegular.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextRegular.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Cocon/CoconNextRegular.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Cocon/CoconNextRegular.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Heavy.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Heavy.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Heavy.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Heavy.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Heavy.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Heavy.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Heavy.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Heavy.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Heavy.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Heavy.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Light.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Light.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Light.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Light.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Light.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Light.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Light.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Light.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Light.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Light.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Medium.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Medium.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Medium.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Medium.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Medium.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Medium.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Medium.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Medium.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Medium.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Medium.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-MediumItalic.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-MediumItalic.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-MediumItalic.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-MediumItalic.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-MediumItalic.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-MediumItalic.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-MediumItalic.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-MediumItalic.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-MediumItalic.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-MediumItalic.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Semibold.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Semibold.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Semibold.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Semibold.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Semibold.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Semibold.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Semibold.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Semibold.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/Lato-Semibold.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/Lato-Semibold.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBlack.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBlack.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBlack.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBlack.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBlack.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBlack.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBlack.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBlack.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBlack.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBlack.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBold.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBold.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBold.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBold.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBold.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBold.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBold.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBold.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoBold.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoBold.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoRegular.eot",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoRegular.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoRegular.svg",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoRegular.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoRegular.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoRegular.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoRegular.woff",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoRegular.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/LatoRegular.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/LatoRegular.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/Lato/original-lato-medium.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/Lato/original-lato-medium.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/theme/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/theme/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/theme/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-light-300.eot",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-light-300.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-light-300.svg",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-light-300.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-light-300.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-light-300.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-light-300.woff",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-light-300.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-light-300.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-light-300.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/fonts/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/theme/fonts/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/agents-icon.png",
+      "PackagePath": "staticwebassets/theme/images/agents-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/avatar.png",
+      "PackagePath": "staticwebassets/theme/images/avatar.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/bell-icon.png",
+      "PackagePath": "staticwebassets/theme/images/bell-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/black-arrow.png",
+      "PackagePath": "staticwebassets/theme/images/black-arrow.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/branches.png",
+      "PackagePath": "staticwebassets/theme/images/branches.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/car-icon.png",
+      "PackagePath": "staticwebassets/theme/images/car-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/delbtn-icon.png",
+      "PackagePath": "staticwebassets/theme/images/delbtn-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/editbtn-icon.png",
+      "PackagePath": "staticwebassets/theme/images/editbtn-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/info-icon.png",
+      "PackagePath": "staticwebassets/theme/images/info-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/loading-animation.gif",
+      "PackagePath": "staticwebassets/theme/images/loading-animation.gif"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/logo.png",
+      "PackagePath": "staticwebassets/theme/images/logo.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/qca-audit.png",
+      "PackagePath": "staticwebassets/theme/images/qca-audit.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/search-icon.png",
+      "PackagePath": "staticwebassets/theme/images/search-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/skyline-bg.png",
+      "PackagePath": "staticwebassets/theme/images/skyline-bg.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/white-loader.gif",
+      "PackagePath": "staticwebassets/theme/images/white-loader.gif"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/yellow-bg.png",
+      "PackagePath": "staticwebassets/theme/images/yellow-bg.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/images/zone-manager-icon.png",
+      "PackagePath": "staticwebassets/theme/images/zone-manager-icon.png"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.js",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/chandrapal/amaxweb/Amax.InsurancePro.Web/wwwroot/theme/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/theme/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/linux-x64/staticwebassets/msbuild.Amax.InsurancePro.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/linux-x64/staticwebassets/msbuild.build.Amax.InsurancePro.Web.props",
+      "PackagePath": "build\\Amax.InsurancePro.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/linux-x64/staticwebassets/msbuild.buildMultiTargeting.Amax.InsurancePro.Web.props",
+      "PackagePath": "buildMultiTargeting\\Amax.InsurancePro.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/linux-x64/staticwebassets/msbuild.buildTransitive.Amax.InsurancePro.Web.props",
+      "PackagePath": "buildTransitive\\Amax.InsurancePro.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

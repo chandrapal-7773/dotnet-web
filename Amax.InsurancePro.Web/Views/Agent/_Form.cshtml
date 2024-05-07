@@ -1,0 +1,151 @@
+﻿<div class="offcanvas-header">
+	<h5 class="offcanvas-title">ADD NEW AGENT</h5>
+	<button type="button" class="btn-close" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+	<div><span class="text-danger form-error"></span></div>
+	<form id="agent-form">
+		@Html.AntiForgeryToken()
+		<div class="row row-block g-2">
+			<div class="block-heading"><h3>Contact Information</h3></div>
+			<div class="col-md-6">
+				<input type="text" name="AgentName" placeholder="Name" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-6-->			
+			<div class="col-md-6">
+				<select type="text" name="Title" placeholder="Select Agent Title" class="" ></select>
+				<span class="text-danger"></span>
+			</div><!--end of col-6-->
+			<div class="col-md-6">
+				<input type="text" name="Email" placeholder="Email" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-6-->
+			<div class="col-md-6">
+				<input type="text" name="AgentPhone1" placeholder="Phone Number" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-6-->
+			<div class="col-md-6">
+				<input type="text" name="AgentAddressLine1" placeholder="Address" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-6-->
+		</div>
+		<div class="row row-block g-2">
+			<div class="block-heading"><h3>Login Information</h3></div>
+			<div class="col-12">
+				<label class="d-inline-block"><input name="BLocked" type="checkbox" /> Locked-out</label>
+				<label class="d-inline-block"><input name="ResetPassword" type="checkbox" /> Reset-password</label>
+			</div><!--end of col-12-->
+			<div class="col-md-4">
+				<input type="text" name="UserId" placeholder="User ID" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-4-->
+			<div class="col-md-4">
+				<input type="text" name="Password" placeholder="Password" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-4-->
+			<div class="col-md-4">
+				<input type="number" name="DefaultBankAccountId" placeholder="Default BA Account" class="form-control" />
+				<span class="text-danger"></span>
+			</div><!--end of col-4-->
+		</div>
+		<div class="row row-block g-2">
+			<div class="block-heading"><h3>Commisions</h3></div>
+			<div class="col-md-6">
+				<input name="AgentCommPercent" type="number" placeholder="Commision" class="form-control" step="0.01" />
+			</div><!--end of col-6-->
+			<div class="col-md-6">
+				<input name="AgentRate" type="number" placeholder="Flat F..." class="form-control" step="1" />
+			</div><!--end of col-6-->
+		</div>
+
+		@*locations*@
+		<div class="row row-block g-2 locations listbox-container" id="agent-locations">
+			
+				<div class="block-heading"><h3>Locations</h3></div>
+				<div class="col-md">
+					<h3>All Locations</h3>
+					<div class="row g-2 text-end mt-1">
+						<div class="col">
+							<input class="form-control left-search" type="text" placeholder="Search">
+						</div>
+					</div>
+					<div class="border p-2 mt-2">
+						<ul class="listbox left">
+	@*						<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>*@
+						</ul>
+					</div>
+				</div><!--end of col-6-->
+				<div class="col-md-auto">
+					<a class="yellow-btn move-right"><img src="~/theme/images/black-arrow.png" alt="" /></a>
+					<a class="black-btn move-left"><img src="~/theme/images/black-arrow.png" alt="" /></a>
+				</div>
+				<div class="col-md">
+					<h3>Assigned Locations</h3>
+					<div class="row g-2 text-end mt-1">
+						<div class="col">
+							<input class="form-control right-search" type="text" placeholder="Search">
+						</div>
+					</div>
+					<div class="border p-2 mt-2">
+						<ul class="listbox right">
+@*							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>
+							<li>Location list item</li>*@
+						</ul>
+					</div>
+				</div><!--end of col-6-->
+			
+		</div>
+		@* end locations*@
+		<div class="row row-block g-2">
+			<div class="block-heading"><h3>All Permissions</h3></div>
+			<div class="col-md-6">
+				<label class="active"><input name="AdminAccess" type="checkbox" /> Administrator - Allow Complete Access</label>
+				<label><input name="AccessReport" type="checkbox" /> Access Business Report</label>
+				<label><input name="AccesEodreports" type="checkbox" /> Access End of Day Report</label>
+				<label><input type="checkbox" /> Allow Edit/Void Payments</label>
+				<label><input name="AccessSetupAgency" type="checkbox" /> Allow Agency Setup</label>
+				<label><input type="checkbox" /> Allow Company & User Screen Access</label>
+				<label><input name="AccessPost" type="checkbox" /> Allow Postmarking & Mail Log Edit</label>
+				<label><input name="Prefill" type="checkbox" /> Pre-fill Amount when taking Payments</label>
+			</div><!--end of col-6-->
+			<div class="col-md-6">
+				<label><input name="AccessWriteCheck" type="checkbox" /> Allow Check Writing and Printing</label>
+				<label><input name="AccessReconcile" type="checkbox" /> Access Account Reconcile</label>
+				<label><input name="AccessDaily" type="checkbox" /> Access Daily Transaction Report</label>
+				<label><input name="AccessDeletePay" type="checkbox" /> Allow Deleting of Payments and Policies</label>
+			</div><!--end of col-6-->
+		</div>
+		<div class="row row-block g-2">
+			<div class="block-heading"><h3>Additional Notes</h3></div>
+			<div class="col-12">
+				<textarea name="AgentNotes" cols="20" rows="3" class="form-control border-0" placeholder="Type Your Message ..."></textarea>
+			</div><!--end of col-12-->
+		</div>
+		<div class="row row-block g-2">
+			<div class="block-heading"><h3>Integratios</h3></div>
+			<div class="col-12">
+				Click here to configure <a href="#">Agency Buzz ID</a>
+			</div>
+			<div class="col-md-6">
+				<input type="text" placeholder="Turbo Rater User Name" class="form-control" />
+			</div><!--end of col-6-->
+			<div class="col-md-6">
+				<input type="text" placeholder="EZLynx User Name" class="form-control" />
+			</div><!--end of col-6-->
+		</div>
+		<div class="row">
+			<div class="col-12 text-end">
+				<button type="button" class="red-btn submit-btn">SAVE</button>
+			</div>
+		</div>
+	</form>
+</div>

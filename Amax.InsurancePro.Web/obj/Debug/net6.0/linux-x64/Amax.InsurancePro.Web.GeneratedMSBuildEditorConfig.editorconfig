@@ -1,0 +1,112 @@
+is_global = true
+build_property.RefitInternalNamespace = Amax.InsurancePro.Web
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Amax.InsurancePro.Web
+build_property.RootNamespace = Amax.InsurancePro.Web
+build_property.ProjectDir = /home/chandrapal/amaxweb/Amax.InsurancePro.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/chandrapal/amaxweb/Amax.InsurancePro.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Agency/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmN5L0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Agency/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmN5L19Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Agent/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnQvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Agent/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Agent/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnQvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Agent/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnQvX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Auth/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Company/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGFueS9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Company/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGFueS9fRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Home/Forbidden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Gb3JiaWRkZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_BlankLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19CbGFua0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19oZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19oZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19uYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19zaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chandrapal/amaxweb/Amax.InsurancePro.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r8zwx27nkh

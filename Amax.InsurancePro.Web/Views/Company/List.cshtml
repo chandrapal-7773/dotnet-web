@@ -1,0 +1,42 @@
+﻿@{
+	ViewBag.Title = "Company List";
+	ViewBag.pTitle = "Company List";
+	ViewBag.pageTitle = "Company List";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row g-2 mt-3">
+	<h2 class="col p-heading border-0">Companies</h2>
+	<div class="heading-btns col-auto">
+		<a class="red-btn save-btn" href="#"><i class="fas fa-plus"></i></a>
+	</div>
+	<div class="col-12">
+		<div class="table-responsive">
+			<table id="company-list" class="table table-bordered no-bg" style="min-height:200px">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Address</th>
+						<th>City</th>
+						<th>State</th>
+						<th>Contact</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="side-panel-form" aria-labelledby="company-formLabel" data-bs-backdrop="static">
+	@await Html.PartialAsync("_Form");
+	<div class="loader d-none"><img src="~/theme/images/loading-animation.gif" alt=""></div>
+</div>
+
+@section scripts {
+		<script type="module" src="~/js/company/list.js" asp-append-version="true"></script>
+}
