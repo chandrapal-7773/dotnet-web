@@ -1,5 +1,8 @@
 pipeline {
-    agent win-slave
+      agent {
+        // Define the agent where the pipeline will run
+        label 'win-slave'
+    }
 
     environment {
         DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
