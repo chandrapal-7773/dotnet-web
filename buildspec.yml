@@ -18,10 +18,8 @@ phases:
       - dotnet publish -c Release -o ./publish
 artifacts:
   files:
-    - ./publish/**/*
-    - appspec.yml
-    - Scripts/**
-  discard-paths: no
+     - ./publish/**
+  discard-paths: yes
 
 cache:
   paths:
