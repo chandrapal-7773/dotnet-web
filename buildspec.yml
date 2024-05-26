@@ -14,11 +14,11 @@ phases:phases:
     commands:
       - echo Building the project...
       - dotnet build --configuration Release
-      - dotnet publish --configuration Release --output Publish
+      - dotnet publish --configuration -c Release -o target
       - echo Build completed at `date`
   post_build:
     commands:
       - echo This pre_build phase ... ran at `date`
 artifacts:
   files:
-    - Publish/*
+     - target/**/*
