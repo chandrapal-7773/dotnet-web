@@ -19,6 +19,8 @@ phases:
 artifacts:
   files:
     - ./publish/**
+    - appspec.yml
+    - Scripts/**/*
   discard-paths: yes
 
 cache:
