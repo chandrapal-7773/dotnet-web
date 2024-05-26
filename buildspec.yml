@@ -13,9 +13,9 @@ phases:
   build:
     commands:
       - echo Build started at `date`
-      - dotnet restore ./Amax-Web.sln
-      - dotnet build ./Amax-Web.sln
-      - dotnet publish  ./Amax-Web.sln -c Release -o target
+      - dotnet restore Amax-Web.sln
+      - dotnet build Amax-Web.sln
+      - dotnet publish Amax-Web.sln -c Release -o target
       - echo Build completed at `date`
   post_build:
     commands:
