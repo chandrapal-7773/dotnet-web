@@ -12,16 +12,16 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: Scripts/before_install.sh
+    - location: ./before_install.sh
       timeout: 300
       runas: root
 
   ApplicationStart:
-    - location: Scripts/application_start.sh
+    - location: ./application_start.sh
       timeout: 300
       runas: root
 
   ApplicationStop:
-    - location: Scripts/application_stop.sh
+    - location: ./application_stop.sh
       timeout: 300
       runas: root
