@@ -19,6 +19,4 @@ phases:phases:
   post_build:
     commands:
       - echo This pre_build phase ... ran at `date`
-artifacts:
-  files:
-     - target/**/*
+
