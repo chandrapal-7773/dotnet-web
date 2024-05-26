@@ -12,14 +12,14 @@ phases:phases:
       - echo This pre_build phase ... ran at `date`
   build:
     commands:
-      - echo Build started at `date`
-      - dotnet build ./Amax.Web.sln
-      - dotnet publish Amax.Web.sln -c Release -o target
+      - echo Building the project...
+      - dotnet build --configuration Release
+      - dotnet publish --configuration Release
       - echo Build completed at `date`
   post_build:
     commands:
       - echo This pre_build phase ... ran at `date`
 artifacts:
   files:
-    - target/**/*
-
+    - '**\bin\Release\**'
+    - '**\obj\Release\**'
