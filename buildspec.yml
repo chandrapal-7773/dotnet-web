@@ -1,1 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 6.0
+    commands:
+      - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 6.0
+  pre_build:
+    commands:
+      - echo This pre_build phase ... ran at `date`
+  build:
+    commands:
+      - echo Build started at `date`
+      - dotnet restore ./Amax-Web.sln
+      - dotnet build ./Amax-Web.sln
+      - dotnet publish  ./Amax-Web.sln -c Release -o target
+      - echo Build completed at `date`
+  post_build:
+    commands:
+      - echo This pre_build phase ... ran at `date`
+artifacts:
+  files:
+    - target/**/*
 
