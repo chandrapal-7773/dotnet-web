@@ -22,4 +22,5 @@ phases:phases:
   artifacts:
   files:
     - target/**/*
-  discard-paths: yes
+    - aws s3 cp --recursive /source/build-artifacts s3://codebuild-dotnet/  # Replace with your S3 bucket path
+
