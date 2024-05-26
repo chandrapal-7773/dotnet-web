@@ -22,4 +22,4 @@ phases:phases:
   artifacts:
   files:
     - target/**/*
-
+  discard-paths: yes
