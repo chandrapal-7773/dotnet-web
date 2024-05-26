@@ -1,26 +1,26 @@
 version: 0.2
 
-phases:phases:
+phases:
   install:
-    commands:
-      # Install .NET SDK
-      - echo Installing .NET SDK...
-      - Invoke-WebRequest -Uri https://download.visualstudio.microsoft.com/download/pr/39d9cb23-37f2-46d8-9b45-586c231a3e80/86d9667a2f29a3ac8f1b95bc4dcf7c19/dotnet-sdk-6.0.100-preview.7.21379.14-win-x64.exe -OutFile dotnet-sdk.exe
-      - .\dotnet-sdk.exe /quiet /norestart /install
+    runtime-versions:
+      dotnet: 6.0
   pre_build:
-    commands: 
-      - echo This pre_build phase ... ran at `date`
+    commands:
+      - echo "Restoring NuGet packages"
+      - dotnet restore
   build:
     commands:
-      - echo Building the project...
+      - echo "Building the .NET project"
       - dotnet build --configuration Release
-      - dotnet publish --configuration -c Release -o target
-      - echo Build completed at `date`
   post_build:
     commands:
-      - echo This pre_build phase ... ran at `date`
-  artifacts:
+      - echo "Publishing artifacts"
+      - dotnet publish -c Release -o ./publish
+artifacts:
   files:
-    - target/**/*
-    - aws s3 cp --recursive /source/build-artifacts s3://codebuild-dotnet/  # Replace with your S3 bucket path
+    - ./publish/**
+  discard-paths: yes
 
+cache:
+  paths:
+    - ~/.nuget/packages
