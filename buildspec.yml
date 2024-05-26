@@ -8,18 +8,17 @@ phases:phases:
       - Invoke-WebRequest -Uri https://download.visualstudio.microsoft.com/download/pr/39d9cb23-37f2-46d8-9b45-586c231a3e80/86d9667a2f29a3ac8f1b95bc4dcf7c19/dotnet-sdk-6.0.100-preview.7.21379.14-win-x64.exe -OutFile dotnet-sdk.exe
       - .\dotnet-sdk.exe /quiet /norestart /install
   pre_build:
-    commands:
+    commands: 
       - echo This pre_build phase ... ran at `date`
   build:
     commands:
       - echo Building the project...
       - dotnet build --configuration Release
-      - dotnet publish --configuration Release
+      - dotnet publish --configuration Release --output Publish
       - echo Build completed at `date`
   post_build:
     commands:
       - echo This pre_build phase ... ran at `date`
 artifacts:
   files:
-    - '**\bin\Release\**'
-    - '**\obj\Release\**'
+    - Publish/*
