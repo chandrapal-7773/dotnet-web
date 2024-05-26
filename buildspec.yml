@@ -20,8 +20,8 @@ artifacts:
   files:
     - ./publish/**/*
     - appspec.yml
-    - Scripts/**/*
-  discard-paths: yes
+    - Scripts/**
+  discard-paths: no
 
 cache:
   paths:
