@@ -7,11 +7,11 @@ phases:
   pre_build:
     commands:
       - echo Restore started on `date`
-      - dotnet restore MyProject.sln  # Replace with your project's solution/project file name
+      - dotnet restore Amax.Web.sln  # Replace with your project's solution/project file name
   build:
     commands:
       - echo Build started on `date`
-      - dotnet build MyProject.sln  # Replace with your project's solution/project file name
+      - dotnet build Amax.Web.sln  # Replace with your project's solution/project file name
   post_build:
     # You can add post-build commands here, such as publishing the output
     # - dotnet publish MyProject.sln -c Release
