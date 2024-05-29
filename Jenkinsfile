@@ -15,6 +15,23 @@ pipeline {
                 checkout scm
             }
         }
+        
+        stage('Stop IIS') {
+             agent {
+                label 'windows-2'
+            }
+            steps {
+                script {
+                    powershell """
+                        Stop-Service -Name 'W3SVC' -Force
+                        if ((Get-Service 'W3SVC').Status -ne 'Stopped') {
+                            Write-Error 'Failed to stop IIS service'
+                            exit 1
+                        }
+                    """
+                }
+            }
+        }
          stage('Build') {
             agent {
                 label 'windows-2'
@@ -22,7 +39,6 @@ pipeline {
             steps {
                 script {
                     // Building the application
-                    bat "C:\Windows\System32\inetsrv\appcmd.exe stop apppool /apppool.name:Amax-web"
                     bat "dotnet build --configuration Release"
                 }
             }
