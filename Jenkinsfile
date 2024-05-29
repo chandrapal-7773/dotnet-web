@@ -61,11 +61,6 @@ pipeline {
             echo 'Build, test, and publish successful!'
         }
     }
-    
-    
-     environment {
-        DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
-    }
 
     stages {
         stage('Checkout') {
