@@ -34,7 +34,7 @@ pipeline {
             steps {
                 script {
                     // Publishing the application
-                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
+                    bat "dotnet publish"
                 }
             }
         }
@@ -78,7 +78,7 @@ pipeline {
             steps {
                 script {
                     // Publishing the application
-                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
+                    bat "dotnet publish"
                 }
             }
         }
