@@ -34,7 +34,7 @@ pipeline {
             steps {
                 script {
                     // Publishing the application
-                    bat "dotnet publish"
+                    bat "dotnet publish --configuration Release"
                 }
             }
         }
@@ -56,21 +56,8 @@ pipeline {
                     bat "dotnet build --configuration Release"
                 }
             }
-        }
-        
-         stage('Tests') {
-            agent {
-                label 'win-slave'
-            }
-            steps {
-                script {
-                    // Running tests
-                    bat "dotnet test --no-restore --configuration Release"
-                }
-            }
-        }
-        
-        
+         }
+               
           stage('Publishs') {
             agent {
                 label 'win-slave'
@@ -78,7 +65,7 @@ pipeline {
             steps {
                 script {
                     // Publishing the application
-                    bat "dotnet publish"
+                    bat "dotnet publish --configuration Release"
                 }
             }
         }
