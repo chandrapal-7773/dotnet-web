@@ -63,6 +63,23 @@ pipeline {
                 checkout scm
             }
         }
+
+            stage('Stop IIS') {
+             agent {
+                label 'win-slave'
+            }
+            steps {
+                script {
+                    powershell """
+                        Stop-Service -Name 'W3SVC' -Force
+                        if ((Get-Service 'W3SVC').Status -ne 'Stopped') {
+                            Write-Error 'Failed to stop IIS service'
+                            exit 1
+                        }
+                    """
+                }
+            }
+        }
          stage('Builds') {
             agent {
                 label 'win-slave'
