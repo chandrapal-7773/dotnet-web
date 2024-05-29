@@ -1,7 +1,7 @@
 pipeline {
       agent {
         // Define the agent where the pipeline will run
-        label 'win-slave'
+        label 'win-slave && windows-2'
     }
 
       environment {
