@@ -16,7 +16,7 @@ pipeline {
             }
         }
         
-        stage('Stop IIS') {
+        stage('Stop IIS2') {
              agent {
                 label 'windows-2'
             }
