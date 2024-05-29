@@ -55,17 +55,21 @@ pipeline {
                 }
             }
         }
-        cleanup {
-            script {
-                powershell """
+        stage('Start IIS') {
+            steps {
+                script {
+                  powershell """
                     Start-Service -Name 'W3SVC'
                     if ((Get-Service 'W3SVC').Status -ne 'Running') {
                         Write-Error 'Failed to start IIS service'
                         exit 1
                     }
                 """
+                }
             }
-            }
+        }
+        
+    
         stage('Checkouts') {
             agent {
                 label 'win-slave'
@@ -114,6 +118,20 @@ pipeline {
                 }
             }
         }
+        stage('Start IIS2') {
+            steps {
+                script {
+                  powershell """
+                    Start-Service -Name 'W3SVC'
+                    if ((Get-Service 'W3SVC').Status -ne 'Running') {
+                        Write-Error 'Failed to start IIS service'
+                        exit 1
+                    }
+                """
+                }
+            }
+        }
+        
     
 }
 }
