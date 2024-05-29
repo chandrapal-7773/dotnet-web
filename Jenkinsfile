@@ -1,25 +1,31 @@
-pipeline {
-      agent {
-        // Define the agent where the pipeline will run
-        label 'win-slave windows-2'
-    }
+win-slave
+windows-2
+C:\Program Files\dotnet\dotnet.exe
 
-      environment {
+
+pipeline {
+    agent none
+
+    environment {
         DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
     }
 
     stages {
         stage('Checkout') {
+            agent {
+                label 'windows-2'
+            }
             steps {
                 checkout scm
             }
         }
-                
-        stage('Build') {
+         stage('Build') {
+            agent {
+                label 'windows-2'
+            }
             steps {
                 script {
                     // Restoring dependencies
-                    //bat "cd ${DOTNET_CLI_HOME} && dotnet restore"
                     bat "dotnet restore"
 
                     // Building the application
@@ -27,8 +33,11 @@ pipeline {
                 }
             }
         }
-
-        stage('Test') {
+        
+         stage('Test') {
+            agent {
+                label 'windows-2'
+            }
             steps {
                 script {
                     // Running tests
@@ -36,8 +45,12 @@ pipeline {
                 }
             }
         }
-
-        stage('Publish') {
+        
+        
+          stage('Publish') {
+            agent {
+                label 'windows-2'
+            }
             steps {
                 script {
                     // Publishing the application
@@ -46,8 +59,69 @@ pipeline {
             }
         }
     }
+    
+        post {
+        success {
+            echo 'Build, test, and publish successful!'
+        }
+    }
+    
+    
+     environment {
+        DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
+    }
 
-    post {
+    stages {
+        stage('Checkout') {
+            agent {
+                label 'win-slave'
+            }
+            steps {
+                checkout scm
+            }
+        }
+         stage('Build') {
+            agent {
+                label 'win-slave'
+            }
+            steps {
+                script {
+                    // Restoring dependencies
+                    bat "dotnet restore"
+
+                    // Building the application
+                    bat "dotnet build --configuration Release"
+                }
+            }
+        }
+        
+         stage('Test') {
+            agent {
+                label 'win-slave'
+            }
+            steps {
+                script {
+                    // Running tests
+                    bat "dotnet test --no-restore --configuration Release"
+                }
+            }
+        }
+        
+        
+          stage('Publish') {
+            agent {
+                label 'win-slave'
+            }
+            steps {
+                script {
+                    // Publishing the application
+                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
+                }
+            }
+        }
+    }
+    
+        post {
         success {
             echo 'Build, test, and publish successful!'
         }
