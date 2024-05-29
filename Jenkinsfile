@@ -56,6 +56,9 @@ pipeline {
             }
         }
         stage('Start IIS') {
+               agent {
+                label 'windows-2'
+            }
             steps {
                 script {
                   powershell """
@@ -119,6 +122,9 @@ pipeline {
             }
         }
         stage('Start IIS2') {
+               agent {
+                label 'win-slave'
+            }
             steps {
                 script {
                   powershell """
