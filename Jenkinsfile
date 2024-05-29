@@ -22,6 +22,7 @@ pipeline {
             steps {
                 script {
                     // Building the application
+                    bat "C:\Windows\System32\inetsrv\appcmd.exe stop apppool /apppool.name:Amax-web"
                     bat "dotnet build --configuration Release"
                 }
             }
