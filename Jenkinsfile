@@ -54,7 +54,7 @@ pipeline {
                 }
             }
         }
-        stage('Checkout') {
+        stage('Checkouts') {
             agent {
                 label 'win-slave'
             }
@@ -62,7 +62,7 @@ pipeline {
                 checkout scm
             }
         }
-         stage('Build') {
+         stage('Builds') {
             agent {
                 label 'win-slave'
             }
@@ -77,7 +77,7 @@ pipeline {
             }
         }
         
-         stage('Test') {
+         stage('Tests') {
             agent {
                 label 'win-slave'
             }
@@ -90,7 +90,7 @@ pipeline {
         }
         
         
-          stage('Publish') {
+          stage('Publishs') {
             agent {
                 label 'win-slave'
             }
@@ -102,10 +102,5 @@ pipeline {
             }
         }
     
-        post {
-        success {
-            echo 'Build, test, and publish successful!'
-        }
-        }
 }
 }
