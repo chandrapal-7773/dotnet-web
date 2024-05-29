@@ -1,7 +1,3 @@
-win-slave
-windows-2
-C:\Program Files\dotnet\dotnet.exe
-
 
 pipeline {
     agent none
