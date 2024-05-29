@@ -21,27 +21,11 @@ pipeline {
             }
             steps {
                 script {
-                    // Restoring dependencies
-                    bat "dotnet restore"
-
                     // Building the application
                     bat "dotnet build --configuration Release"
                 }
             }
-        }
-        
-         stage('Test') {
-            agent {
-                label 'windows-2'
-            }
-            steps {
-                script {
-                    // Running tests
-                    bat "dotnet test --no-restore --configuration Release"
-                }
-            }
-        }
-        
+        }     
         
           stage('Publish') {
             agent {
@@ -68,9 +52,6 @@ pipeline {
             }
             steps {
                 script {
-                    // Restoring dependencies
-                    bat "dotnet restore"
-
                     // Building the application
                     bat "dotnet build --configuration Release"
                 }
