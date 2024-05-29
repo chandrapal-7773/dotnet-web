@@ -54,9 +54,6 @@ pipeline {
                 }
             }
         }
-    }
-
-    stages {
         stage('Checkout') {
             agent {
                 label 'win-slave'
@@ -104,11 +101,11 @@ pipeline {
                 }
             }
         }
-    }
     
         post {
         success {
             echo 'Build, test, and publish successful!'
         }
-    }
+        }
+}
 }
