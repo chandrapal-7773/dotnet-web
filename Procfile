@@ -1,1 +1,1 @@
-web: dotnet ./app/AWSCodePipelineDemo.dll
+web: dotnet ./app/Amax.InsurancePro.Web.dll
