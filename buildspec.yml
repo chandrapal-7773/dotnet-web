@@ -1,1 +1,22 @@
+version: 0.2
 
+phases:
+  install:
+    runtime-versions:
+      dotnet: 6.0
+
+  pre_build:
+    commands:
+      - dotnet Amax.Web.sln
+
+  build:
+    commands:
+      - dotnet build Amax.Web.sln
+
+  post_build:
+    commands:
+      - dotnet publish -c Release -o ./app/ MySampleApp/MySampleApp.csproj  # Adjust if needed
+
+artifacts:
+  files:
+    - '**/*'
