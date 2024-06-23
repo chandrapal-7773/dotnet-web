@@ -1,26 +1,18 @@
 version: 0.2
-
+        
 phases:
   install:
     runtime-versions:
       dotnet: 6.0
   pre_build:
     commands:
-      - echo "Restoring NuGet packages"
-      - dotnet restore
+      - dotnet restore AWSCodePipelineDemo/AWSCodePipelineDemo.csproj
   build:
     commands:
-      - echo "Building the .NET project"
-      - dotnet build --configuration Release
+      - dotnet build AWSCodePipelineDemo/AWSCodePipelineDemo.csproj
   post_build:
     commands:
-      - echo "Publishing artifacts"
-      - dotnet publish -c Release -o ./publish
+      - dotnet publish -c Release -o ./app/ AWSCodePipelineDemo/AWSCodePipelineDemo.csproj
 artifacts:
   files:
-     - ./publish/**
-  discard-paths: yes
-
-cache:
-  paths:
-    - ~/.nuget/packages
+    - '**/*'
