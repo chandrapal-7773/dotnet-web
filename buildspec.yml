@@ -15,7 +15,7 @@ phases:
 
   post_build:
     commands:
-      - dotnet publish -c Release -o ./app/ Amax.InsurancePro.Web/Amax.InsurancePro.Web.csproj  # Adjust if needed
+      - dotnet publish -c Release -o ./app/ Amax.Web.sln  # Adjust if needed
 
 artifacts:
   files:
