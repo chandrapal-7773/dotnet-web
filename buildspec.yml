@@ -7,7 +7,7 @@ phases:
 
   pre_build:
     commands:
-      - dotnet Amax.Web.sln
+      - dotnet restore Amax.Web.sln
 
   build:
     commands:
