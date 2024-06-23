@@ -6,13 +6,13 @@ phases:
       dotnet: 6.0
   pre_build:
     commands:
-      - dotnet restore AWSCodePipelineDemo/AWSCodePipelineDemo.csproj
+      - dotnet restore Amax.InsurancePro.Web/Amax.InsurancePro.Web.csproj
   build:
     commands:
-      - dotnet build AWSCodePipelineDemo/AWSCodePipelineDemo.csproj
+      - dotnet build Amax.InsurancePro.Web/Amax.InsurancePro.Web.csproj
   post_build:
     commands:
-      - dotnet publish -c Release -o ./app/ AWSCodePipelineDemo/AWSCodePipelineDemo.csproj
+      - dotnet publish -c Release -o ./app/ Amax.InsurancePro.Web/Amax.InsurancePro.Web.csproj
 artifacts:
   files:
     - '**/*'
