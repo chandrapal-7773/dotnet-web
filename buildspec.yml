@@ -1,37 +1,15 @@
 version: 0.2
 
+env:
+  variables:
+    PROJECT: AspNetMvcSampleApp
+    DOTNET_FRAMEWORK: 6.0
 phases:
-install:
-commands:
-•  echo Restore NuGet packages...
-
-•  nuget restore Amax.Web.sln
-
-pre_build:
-commands:
-•  echo Build started on `date`
-
-•  echo Compiling the ASP.NET MVC application...
-
-build:
-commands:
-•  msbuild Amax.Web.sln /p:Configuration=Release /p:OutputPath=./build_output
-
-post_build:
-commands:
-•  echo Build completed on `date`
-
-•  echo Packaging the application...
-
-•  &packaging 'WebDeploy package creation'
-
-•  mkdir ./packaged_artifacts
-
-•  msbuild Amax.Web.sln /t:Package /p:PackageLocation=./packaged_artifacts/
-
-
+  build:
+    commands:
+      - nuget restore
+      - msbuild $env:Amax.InsurancePro.Web/Amax.InsurancePro.Web.csproj /p:TargetFrameworkVersion=v$env:DOTNET_FRAMEWORK /p:Configuration=Release /p:DeployIisAppPath="Default Web Site" /p:PackageAsSingleFile=false /p:OutDir=C:\codebuild\artifacts\ /t:Package
 artifacts:
-files:
-•  ./packaged_artifacts/**/*
-
-discard-paths: yes
+  files:
+    - '**/*'
+  base-directory: 'C:\codebuild\artifacts\_PublishedWebsites\${env:PROJECT}_Package\Archive\'
