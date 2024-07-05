@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     PROJECT: Amax.InsurancePro.Web
-    DOTNET_CORE_RUNTIME: 3.1
+    DOTNET_CORE_RUNTIME: 6.0
 
 phases:
   install:
